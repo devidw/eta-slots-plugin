@@ -1,0 +1,23 @@
+{
+    "name": "eta-slots-plugin",
+    "version": "12023.5.1",
+    "license": "UNLICENSE",
+    "type": "module",
+    "main": "dist/plugin.js",
+    "module": "dist/plugin.js",
+    "exports": {
+        ".": "./dist/plugin.js"
+    },
+    "scripts": {
+        "build": "rm -rf ./dist && tsc"
+    },
+    "devDependencies": {
+        "typescript": "latest"
+    },
+    "peerDependencies": {
+        "eta": "^2.0.1"
+    },
+    "files": [
+        "dist"
+    ]
+}
